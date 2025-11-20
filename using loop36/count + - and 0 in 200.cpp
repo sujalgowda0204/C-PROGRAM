@@ -6,7 +6,7 @@ int neg_count=0;
 int zero_count=0;
 n=200;
 printf(" enter any 200 numbers :\n");
-for(i=1; i<=5;i++){
+for(i=1; i<=200;i++){
     printf("enter number %d:", i);
     scanf("%d", &num);
     if(num<0){
@@ -31,3 +31,4 @@ printf(" number of zeros are:%d\n", zero_count);
 return 0;
 
 }
+
