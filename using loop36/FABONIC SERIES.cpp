@@ -11,7 +11,7 @@ int main() {
 
     for (i = 1; i <= n; i++) {
         printf("%d ", b);
-        next = a + b;
+        NUM = a + b;
         a = b;
         b = NUM;
     }
@@ -19,3 +19,4 @@ int main() {
     printf("\n");
     return 0;
 }
+
